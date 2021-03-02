@@ -3,8 +3,8 @@
 from datetime import date as dt
 import datetime
 
-file_name = input()
-f = open(file_name, 'r')
+
+f = open('inputDates.txt', 'r')
 date_line = f.read()
 date_format = "%B %d, %Y"
 individual_date = date_line.split("\n")
